@@ -3,7 +3,9 @@
 ## This project emplement Minecraft Server Docker **building** and **compose** in a way as simple as possible.
 
 1.You can edit **config folder** 
+
 2.and download different version or platform servers like "fabric" **./server.jar** 
+
 3.and install mods to **./mods** to project folder to complete server configuration and then:
 
 `git clone https://github.com/OfTheV0id/minecraft-server-docker`
