@@ -1,6 +1,6 @@
 services:
   minecraft-server:
-    # image: mc-server:fabric-26.2-0.19.3-1.1.2
+    # image: ofthev0id/mc-server:fabric-26.2-0.19.3-1.1.2
     build: .
     volumes:
       - mc-data:/server/world
