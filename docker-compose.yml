@@ -1,0 +1,17 @@
+services:
+  minecraft-server:
+    # image: mc-server:fabric-26.2-0.19.3-1.1.2
+    build: .
+    volumes:
+      - mc-data:/server/world
+    ports:
+      - 25565:25565
+    container_name: mc-server
+    networks:
+      - mc-net
+    
+volumes:
+  mc-data:
+
+networks:
+  mc-net:
