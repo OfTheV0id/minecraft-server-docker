@@ -1,6 +1,7 @@
 services:
   minecraft-server:
     # image: ofthev0id/mc-server:fabric-26.2-0.19.3-1.1.2
+    # Which is not recommended
     build: .
     volumes:
       - mc-data:/server/world
