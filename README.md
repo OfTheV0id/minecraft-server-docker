@@ -1,6 +1,6 @@
 # Simplest Minecraft server docker 
 
-## This project emplement Minecraft Server Docker **building** and **compose** in a way as simple as possible.
+## This project implement Minecraft Server Docker **building** and **compose** in a way as simple as possible.
 
 1.You can edit **config folder** 
 
