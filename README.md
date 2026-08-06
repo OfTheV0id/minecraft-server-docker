@@ -18,5 +18,9 @@ It will build image based on ./server.jar or you can install jar directly in ima
 
 It will create a name volume mc-data to store world data.
 
+If you want to add mods or change version of server run: 
+
+`docker compose down && docker compose up --build`
+
 > [!NOTE]
 > For simplicity, we store configuration, mods and jar in image and it will not be changed defaultly even you restart the container.So I recommended you to run `docker compose up` rather than use an existing image. 
